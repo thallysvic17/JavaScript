@@ -70,11 +70,19 @@ a:hover{
     border-bottom: 10px solid #000;
 }
 
-.headline{
+h1{
     font-family: 'Press Start 2P', sans-serif;
     font-weight: 400;
     font-size: 40px;
     color: #7efff5;
+    text-shadow: 4px 4px 0px #000000;
+}
+
+h2{
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #cc8e35;
     text-shadow: 4px 4px 0px #000000;
 }
 
