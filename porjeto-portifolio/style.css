@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color:#778ca3
@@ -42,48 +42,51 @@ a:hover{
     box-shadow: 10px 10px 20px -12px #7efff5;
 }
 
-#button1{
+.button1{
     
     background-color: #aaa69d;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000; 
-    margin-right: 0;
+    margin-right: 0; 
 }
 
-#button1:hover{
+.button1:hover{
     transform: scale(1.02);
     background-color: #2d98da;
     box-shadow: 10px 10px 40px -12px #7efff5;
 }
 
-
-.section-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-}
-
-.img1{
-    width: auto;
-    height: 650px;
-    border-bottom: 10px solid #000;
-}
-
 h1{
     font-family: 'Press Start 2P', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 40px;
     color: #7efff5;
     text-shadow: 4px 4px 0px #000000;
+    text-align: center;
+    
 }
 
 h2{
     font-family: 'Press Start 2P', sans-serif;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     color: #cc8e35;
     text-shadow: 4px 4px 0px #000000;
+    
 }
+
+#box{
+    display: inline-block;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 44px 44px;
+}
+
+#box h1{
+    margin-bottom: 28px;
+}
+
+
 
 

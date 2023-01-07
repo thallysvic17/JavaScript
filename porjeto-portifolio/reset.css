@@ -1,0 +1,13 @@
+body{
+    font-family: 'Fira Code';
+}
+
+body, h1, h2{
+    margin:0;
+} 
+
+.button1{
+    font-family: inherit
+
+}
+
