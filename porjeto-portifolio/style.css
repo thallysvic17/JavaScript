@@ -5,7 +5,7 @@ body{
 
 header {
     display: flex;
-    background-color: #7C5E99;
+    background-color: #303952;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
     justify-content: space-between;
@@ -28,20 +28,32 @@ a {
     margin-right: 30px; 
 }
 
-#button1{
-    
-    background-color: #F25A70;
-    padding: 18px 20px;
-    box-shadow: 5px 5px 0px #000000; 
-    margin-right: 0;
-}
-
 a::before{
     content: '';
     width: 10px;
     height: 10px;
     margin-right: 10px;
-    background-color: #F25A70;
+    background-color: #227093;
 }
+
+a:hover{
+    
+    box-shadow: 10px 10px 20px -12px #7efff5;
+}
+
+#button1{
+    
+    background-color: #aaa69d;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000000; 
+    margin-right: 0;
+}
+
+#button1:hover{
+    background-color: #2d98da;
+    box-shadow: 10px 10px 40px -12px #7efff5;
+}
+
+
 
 
