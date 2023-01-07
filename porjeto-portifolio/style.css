@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:#778ca3
+    
 }
 
 header {
@@ -14,8 +16,6 @@ header {
 nav {
     text-align: right;
 }
-
-
 
 a {
     display: inline-flex;
@@ -34,10 +34,11 @@ a::before{
     height: 10px;
     margin-right: 10px;
     background-color: #227093;
+    
 }
 
 a:hover{
-    
+    transform: scale(1.02);
     box-shadow: 10px 10px 20px -12px #7efff5;
 }
 
@@ -50,10 +51,31 @@ a:hover{
 }
 
 #button1:hover{
+    transform: scale(1.02);
     background-color: #2d98da;
     box-shadow: 10px 10px 40px -12px #7efff5;
 }
 
 
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.img1{
+    width: auto;
+    height: 650px;
+    border-bottom: 10px solid #000;
+}
+
+.headline{
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #7efff5;
+    text-shadow: 4px 4px 0px #000000;
+}
 
 
