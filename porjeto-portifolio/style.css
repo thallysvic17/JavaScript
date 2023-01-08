@@ -43,11 +43,11 @@ a:hover{
 }
 
 .button1{
-    
+    display: inline-block;
     background-color: #aaa69d;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000; 
-    margin-right: 0; 
+    margin-right: 0;
 }
 
 .button1:hover{
@@ -81,12 +81,36 @@ h2{
     box-shadow: 10px 10px 0 #000;
     text-align: center;
     padding: 44px 44px;
+    
 }
 
 #box h1{
     margin-bottom: 28px;
 }
 
+.banner{
+    background-image: url(/porjeto-portifolio/Imagens-Projeto-portifolio/backgroud3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 475px;
+    border-bottom: 10px solid #000;
+    padding: 100px 80px;
 
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+}
+
+.banner #box {
+    margin-bottom: 40px;
+}
+
+.banner .navigation{
+    display: flex;
+    justify-content: space-around; 
+}
 
 
