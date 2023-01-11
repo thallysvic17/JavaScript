@@ -1,8 +1,5 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #3d3d3d;
-    
+    background-color: #3d3d3d;   
 }
 
 header {
@@ -129,6 +126,37 @@ a:hover{
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #000000;
-    
-
 }
+
+.skill-tec{
+    font-family: 'Press Start 2P', sans-serif;
+    display: flex;
+    font-size: 18px;  
+    color: #fff;
+}
+
+h3{
+    margin: 0;
+}
+
+.skill-tec .icon{
+    margin-right: 25px;
+}
+
+.progress-bar{
+    box-sizing: border-box;
+    border: 5px solid #000;
+    height: 35px;
+    display: flex;   
+}
+
+.progress-bar::-webkit-progress-bar{
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+.skill-tec .rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
