@@ -2,7 +2,7 @@ body{
     font-family: 'Fira Code';
 }
 
-body, h1, h2{
+body, h1, h2, input{
     margin:0;
     padding: 0;
 } 

@@ -194,3 +194,66 @@ h3{
     line-height: 40px;
 }
 
+.main-input{
+    box-sizing: border-box;
+    border: 5px solid #000;
+    font-size: 30px;
+    height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+}
+
+.main-input.-textarea{
+    height: 320px;
+}
+
+.btn-full{
+    width: 100%;
+    background-color: #aaa69d;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px #000000; 
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.btn-full:hover{
+    transform: scale(1.0);
+    background-color: #2d98da;
+    box-shadow: 10px 10px 40px -12px #7efff5;
+}
+
+.main-form{
+    padding: 50px 40px;
+    border-bottom: 10px solid #000;
+}
+
+.main-form .main-input{
+    margin-bottom: 20px;
+}
+
+.main-from .main-input.-textarea{
+    margin-bottom: 40px;
+}
+
+.legend-tittle{   
+color: #fff;
+margin: 0;
+text-align: center;
+}
+
+.fotter-pg{
+    background-color: #000;
+}
+
+.box-img{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.im{
+    padding: 40px;
+    cursor: pointer;
+}
+
