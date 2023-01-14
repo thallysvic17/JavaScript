@@ -86,7 +86,7 @@ a:hover{
 }
 
 .banner{
-    background-image: url(/porjeto-portifolio/Imagens-Projeto-portifolio/backgroud3.jpg);
+    background-image: url(./Imagens-Projeto-portifolio/backgroud3.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 475px;
