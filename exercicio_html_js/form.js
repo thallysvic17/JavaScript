@@ -1,6 +1,5 @@
 const form= document.getElementById('valid-form');
-let varA =parseFloat(document.getElementById('n1').value);
-let varB =parseFloat(document.getElementById('n2').value);
+
 
 formvalid = false;
 
@@ -8,20 +7,24 @@ function numbervalid (varA, varB){
     return varB > varA;
 }
 
-form.addEventListener('submit', function(e){
+form.addEventListener('submit',function(e){
+    let varA =parseFloat(document.getElementById('n1').value);
+    let varB =parseFloat(document.getElementById('n2').value);
     e.preventDefault();
-    const messagesucess =`formulario enviado com sucesso! Verificando: <b> Valor A menor que valor B!</b>` 
+    const messagesucess =`formulario enviado com sucesso! Verificando:  Valor A menor que valor B!` 
 
-    formvalid = numbervalid(n1,n2);
-    if (formvalid){
-        const centermessagesucess = document.querySelector('.sucess-message')
-        centermessagesucess.innerHTML = messagesucess;
-        centermessagesucess.getElementsByClassName.display ='block';
+
+    formvalid = numbervalid(varA,varB);
+    
+    if (formvalid){              
+        alert(messagesucess);
+
 
         varA.value ='';
         varB.value ='';
     }
     else{
-        document.querySelector('.error-message').style.display = 'block';
+        alert(' O valor B precisa ser maior que o ValorA!');
     }
 });
+
