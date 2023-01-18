@@ -18,8 +18,6 @@ form.addEventListener('submit',function(e){
     
     if (formvalid){              
         alert(messagesucess);
-
-
         varA.value ='';
         varB.value ='';
     }
