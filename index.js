@@ -1,5 +1,5 @@
 const form = document.getElementById('form-atividade');
-const imgAprovado = '<img src="./img/aprovado.png" alt ="Emoji celebrando" />';
+const imgAprovado = '<img src="./Img/aprovado.png" alt ="Emoji celebrando" />';
 const imgReporovado = '<img src="./Img/reprovado.png" alt ="Emoji trsite" />';
 const atividades = [];
 const notes = [];
@@ -49,7 +49,7 @@ function atualizaMediaFinal(){
 
     const mediafinal = calculamediafinal();
 
-    document.getElementById('media-final-valor').innerHTML = mediafinal;
+    document.getElementById('media-final-valor').innerHTML = mediafinal.toFixed(2);
     document.getElementById('media-final-resultado').innerHTML = mediafinal >= notaMinima ? spanAprovado : spanReprovado;
 
     
