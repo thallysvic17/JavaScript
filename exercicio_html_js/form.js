@@ -7,7 +7,7 @@ function numbervalid (varA, varB){
     return varB > varA;
 }
 
-addEventListener('submit',function(e){
+form.addEventListener('submit',function(e){
     let varA =parseFloat(document.getElementById('n1').value);
     let varB =parseFloat(document.getElementById('n2').value);
     e.preventDefault();
